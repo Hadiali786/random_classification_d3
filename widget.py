@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import scikit-learn
+import sklearn
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 
@@ -39,3 +39,4 @@ predicted_species = target_names[prediction[0]]
 st.write("Preiction")
 
 st.write(f"The Predicted species is : {predicted_species}")
+
